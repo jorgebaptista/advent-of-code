@@ -1,9 +1,14 @@
-# Advent of Code 2018 Solutions
+# Day 1 Puzzles
 
-### List of solutions for the Advent of Code annually event, 2018 version. 
 
-### You can check the official Avent of Code 2018 event [here](https://adventofcode.com/2018).
+* ### Puzzle 1 : Find the sum of a list of numbers.
+* ### Puzzle 2 : Find which summed number appears twice for the first time.
 
+### The inputs list used by both puzzles can be found [here](Source\Day_1\INPUTS.txt) on the repository.
+
+### More information about Day 1 puzzles can be found on the official Advent of Code website [here](https://adventofcode.com/2018/day/1).
+
+<br>
 <hr>
 
 ## Navigate to:
