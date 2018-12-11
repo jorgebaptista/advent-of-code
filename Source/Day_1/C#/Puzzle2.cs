@@ -15,16 +15,19 @@ namespace Day_1
 
             bool done = false;
 
+            //runs loop until a duplicate sum is found
             while (!done)
             {
                 foreach (string number in inputs)
                 {
+                    //Adds current sum(result) to the list
                     frequencies.Add(result);
 
                     result += Convert.ToInt32(number);
 
                     foreach (int frequency in frequencies)
                     {
+                        //Checks if list already contains current sum(result)
                         if (result == frequency)
                         {
                             done = true;

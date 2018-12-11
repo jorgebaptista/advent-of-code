@@ -12,6 +12,7 @@ namespace Day_1
 
             foreach (string number in inputs)
             {
+                //Converts string to int to prevent errors and sums with current result
                 result += Convert.ToInt32(number);
             }
 
