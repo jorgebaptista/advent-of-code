@@ -16,6 +16,8 @@ namespace Day_2
             {
                 List<char> checkedLetters = new List<char>();
 
+                bool checkedDouble = false, checkedTriple = false;
+
                 foreach (char letter in input)
                 {
                     if (!checkedLetters.Contains(letter))
@@ -29,8 +31,16 @@ namespace Day_2
                             if (subLetter == letter) nIdenticalLetters++;
                         }
 
-                        if (nIdenticalLetters == 3) tripleLetterID++;
-                        else if (nIdenticalLetters == 2) doubleLetterID++;
+                        if (nIdenticalLetters == 3 && !checkedTriple)
+                        {
+                            tripleLetterID++;
+                            checkedTriple = true;
+                        }
+                        else if (nIdenticalLetters == 2 && !checkedDouble)
+                        {
+                            doubleLetterID++;
+                            checkedDouble = true;
+                        }
                     }
                 }
             }
