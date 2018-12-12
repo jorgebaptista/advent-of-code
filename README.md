@@ -8,7 +8,7 @@
 
 ## Navigate to:
 * [Home](/)
-* [1](Source\Day_1)
+* [1](Source/Day_1)
 * [2](Source\Day_2)
 * [3](Source\Day_3)
 * [4](Source\Day_4)
