@@ -7,7 +7,7 @@
 <hr>
 
 ## Navigate to:
-* [Home](/)
+* [Home](advent-of-code-2018)
 * [1](Source/Day_1)
 * [2](Source\Day_2)
 * [3](Source\Day_3)
