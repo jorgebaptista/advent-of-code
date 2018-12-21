@@ -45,8 +45,6 @@ namespace Day_2
                 }
             }
 
-            Console.WriteLine("double {0}, Triple {1}", doubleLetterID, tripleLetterID);
-
             return doubleLetterID * tripleLetterID;
         }
     }
