@@ -1,15 +1,15 @@
-# Day 2 Puzzles
+# Day 3 Puzzles
 
 <br>
 
- Read Day 2 puzzles on the official web page and get your unique Inputs file [here](https://adventofcode.com/2018/day/2).
+ Read Day 3 puzzles on the official web page and get your unique Inputs file [here](https://adventofcode.com/2018/day/3).
 
 
- An *example* of the inputs list used for both puzzles can be found [here](Source\Day_2\INPUTS.txt) on the repository.
+ An *example* of the inputs list used for both puzzles can be found [here](Source\Day_3\INPUTS.txt) on the repository.
 
- Results using **[this](Source\Day_2\INPUTS.txt)** example input list are:
-  * Puzzle 1: **8892**
-  * Puzzle 2: **zihwtxagifpbsnwleydukjmqv**
+ Results using **[this](Source\Day_3\INPUTS.txt)** example input list are:
+  * Puzzle 1: **105071**
+  * Puzzle 2: **222**
 
 <br>
 <hr>

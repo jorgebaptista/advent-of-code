@@ -2,16 +2,18 @@
 
 <br>
 
-* ### Puzzle 1 : Find the sum from a list of numbers.
-* ### Puzzle 2 : Find in a repeated loop which summed number appears twice for the first time.
+ Read Day 1 puzzles on the official web page and get your unique Inputs file [here](https://adventofcode.com/2018/day/1).
 
 
  An *example* of the inputs list used for both puzzles can be found [here](Source\Day_1\INPUTS.txt) on the repository.
 
- For more information about Day 1 puzzles and to get your own inputs head to the official Puzzle page on the Advent of Code website [here](https://adventofcode.com/2018/day/1).
+ Results using **[this](Source\Day_1\INPUTS.txt)** example input list are:
+  * Puzzle 1: **540**
+  * Puzzle 2: **73056**
 
 <br>
 <hr>
+
 
 ## Navigate to day:
 * [1](Source/Day_1)
