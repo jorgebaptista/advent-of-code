@@ -4,10 +4,8 @@ namespace Day_1
 {
     class Puzzle1
     {
-        public static int Solve(string[] args)
-        {            
-            string[] inputs = args;
-
+        public static int Solve(string[] inputs)
+        {
             int result = 0;
 
             foreach (string number in inputs)

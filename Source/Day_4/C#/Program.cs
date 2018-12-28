@@ -23,9 +23,9 @@ namespace Day_4
             // DateTime dateNow = DateTime.Now;
             
             // int datemonth = DateTime.ParseExact(date.Month, "MMMM", CultureInfo.CurrentCulture ).Month;
-            DateTime oDate = DateTime.Parse(iDate);
+            // DateTime oDate = DateTime.Parse(iDate);
 
-            Console.WriteLine(oDate.Minute);
+            // Console.WriteLine(oDate.Minute);
         }
     }
 }

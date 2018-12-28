@@ -1,8 +1,8 @@
 # Advent of Code 2018 Solutions
 
-### List of solutions using different languages for the Advent of Code annual event, 2018 version. 
+List of solutions using different programming languages for the Advent of Code annual event, 2018 version. 
 
-#### You can check the official Avent of Code 2018 event [here](https://adventofcode.com/2018).
+ You can check the official Avent of Code 2018 event [here](https://adventofcode.com/2018).
 
 <hr>
 
