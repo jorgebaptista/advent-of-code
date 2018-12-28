@@ -28,5 +28,5 @@ def solve_puzzle2():
 puzzle1_solution = solve_puzzle1()
 puzzle2_solution = solve_puzzle2()
 
-print("Puzzle 1 Solution :" + puzzle1_solution)
+print("Puzzle 1 Solution :" , puzzle1_solution)
 print("Puzzle 2 Solution :" + puzzle2_solution)
