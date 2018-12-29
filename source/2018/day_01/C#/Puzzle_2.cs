@@ -2,11 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Day_1
+namespace Day_01
 {
-    class Puzzle2
+    class Puzzle_2
     {
-        public static int Solve(string[] inputs)
+        public static int Solve(string[] input)
         {
             int result = 0;
             List<int> frequencies = new List<int>();
@@ -14,7 +14,7 @@ namespace Day_1
             //runs loop until a duplicate sum is found
             while (true)
             {
-                foreach (string number in inputs)
+                foreach (string number in input)
                 {
                     result += Convert.ToInt32(number);
 

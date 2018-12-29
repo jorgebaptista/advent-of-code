@@ -1,10 +1,19 @@
-# Advent of Code 2018 Solutions
+# Day 1 Puzzles
 
-List of solutions using different programming languages for the Advent of Code annual event, 2018 version. 
+<br>
 
- You can check the official Avent of Code 2018 event [here](https://adventofcode.com/2018).
+ Read Day 1 puzzles on the official web page and get your unique Inputs file [here](https://adventofcode.com/2018/day/1).
 
+
+ An *example* of the input list used for both puzzles can be found [here](Source\Day_1\input.txt) on the repository.
+
+ Results using **[this](Source\Day_1\input.txt)** example input list are:
+  * Puzzle 1: **540**
+  * Puzzle 2: **73056**
+
+<br>
 <hr>
+
 
 ## Navigate to day:
 * [1](source/day_01)

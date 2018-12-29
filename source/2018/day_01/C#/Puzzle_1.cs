@@ -1,14 +1,14 @@
 ﻿using System;
 
-namespace Day_1
+namespace Day_01
 {
-    class Puzzle1
+    class Puzzle_1
     {
-        public static int Solve(string[] inputs)
+        public static int Solve(string[] input)
         {
             int result = 0;
 
-            foreach (string number in inputs)
+            foreach (string number in input)
             {
                 //Converts string to int to prevent errors and sums with current result
                 result += Convert.ToInt32(number);

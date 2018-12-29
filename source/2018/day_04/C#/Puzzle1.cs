@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Day_4
+namespace Day_04
 {
-    class Puzzle2
+    class Puzzle_1
     {
         public static int Solve(string[] args)
         {

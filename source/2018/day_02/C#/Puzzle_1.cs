@@ -2,9 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Day_2
+namespace Day_02
 {
-    class Puzzle1
+    class Puzzle_1
     {
         public static int Solve(string[] args)
         {

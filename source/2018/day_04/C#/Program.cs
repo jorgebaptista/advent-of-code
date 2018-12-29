@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace Day_4
+namespace Day_04
 {
     class Program
     {

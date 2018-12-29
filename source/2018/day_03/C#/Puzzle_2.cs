@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Day_3
+namespace Day_03
 {
-    class Puzzle2
+    class Puzzle_2
     {
         struct Claim
         {
