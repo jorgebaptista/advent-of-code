@@ -1,11 +1,13 @@
 with open("../input.txt", "r") as information:
     input = information.readlines()
+    
+data = list(map(int, input))
 
 def solve_puzzle1():
     result = 0
     
-    for data in input:
-        result += int(data)
+    for number in data:
+        result += number
     
     return result
         
@@ -13,11 +15,10 @@ def solve_puzzle1():
 def solve_puzzle2():
     result = 0
     unique_frequencies = set()
-    data = list(map(int, input))
 
     while True:
-        for i in data:
-            result += i
+        for number in data:
+            result += number
 
             if result in unique_frequencies:
                 return result

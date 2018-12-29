@@ -4,14 +4,15 @@ namespace Day_01
 {
     class Puzzle_1
     {
-        public static int Solve(string[] input)
+        public static int Solve(int[] input)
         {
             int result = 0;
 
-            foreach (string number in input)
+            //Iterates through each element in the input array
+            foreach (int number in input)
             {
-                //Converts string to int to prevent errors and sums with current result
-                result += Convert.ToInt32(number);
+                //Adds the value to result variable
+                result += number;
             }
 
             return result;

@@ -6,10 +6,11 @@ namespace Day_01
     {
         static void Main(string[] args)
         {
-            //Gets the INPUTS file containing the information to solve the puzze and converts it into an array of strings
-            string[] inputs = System.IO.File.ReadAllLines(@"../input.txt");
+            //Gets the input file containing the information to solve the puzzle separates values into a string array and converts it to int
+            int[] inputs = Array.ConvertAll(System.IO.File.ReadAllLines(@"../input.txt"), int.Parse);
 
-            //Creates variables for each of the puzzles and assigns respective functions to it (see Puzzle1 and Puzzle2 csharp files for each function)
+            //Declares variables for each of the puzzles solutions and assigns respective functions to it 
+            //(See Puzzle_1 and Puzzle_2 csharp files for each function code)
             int puzzleSolution_1 = Puzzle_1.Solve(inputs);
             int puzzleSolution_2 = Puzzle_2.Solve(inputs);
 

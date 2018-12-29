@@ -6,29 +6,24 @@ namespace Day_01
 {
     class Puzzle_2
     {
-        public static int Solve(string[] input)
+        public static int Solve(int[] input)
         {
             int result = 0;
-            List<int> frequencies = new List<int>();
+            //Declares an HashSet to save unique values
+            HashSet<int> frequencies = new HashSet<int>();
 
-            //runs loop until a duplicate sum is found
             while (true)
             {
-                foreach (string number in input)
+                foreach (int number in input)
                 {
-                    result += Convert.ToInt32(number);
+                    result += number;
 
-                    foreach (int frequency in frequencies)
+                    //checks if current sum(result) already exists inside the HashSet and if not to add
+                    if (!frequencies.Add(result))
                     {
-                        //Checks if list already contains current sum(result)
-                        if (result == frequency)
-                        {
-                            //Breaks out of all loops (and function) and returns the result
-                            return result;
-                        }
+                        //Breaks out of all loops (and function) and returns the result
+                        return result;
                     }
-                    //Adds current sum(result) to the list
-                    frequencies.Add(result);
                 }
             }
         }
