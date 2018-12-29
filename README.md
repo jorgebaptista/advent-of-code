@@ -15,6 +15,6 @@ List of solutions using different programming languages for the Advent of Code a
 
 ## License
 
-<b><u>You have permission to do whatever you want with it</b></u>, but for the sake of conventions:
+<b><u>You have permission to do whatever you want with the code</b></u>, but for the sake of conventions:
 
 Code licensed under the [MIT License](https://choosealicense.com/licenses/mit/). For more information check the license file [here](LICENSE).
