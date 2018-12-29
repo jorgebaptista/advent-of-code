@@ -9,7 +9,7 @@ namespace Day_01
         public static int Solve(int[] input)
         {
             int result = 0;
-            //Declares an HashSet to save unique values
+            //Declares a HashSet to save unique values
             HashSet<int> frequencies = new HashSet<int>();
 
             while (true)
