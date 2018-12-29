@@ -5,9 +5,9 @@
  Read Day 1 puzzles on the official web page and get your unique Inputs file [here](https://adventofcode.com/2018/day/1).
 
 
- An *example* of the input list used for both puzzles can be found [here](Source\Day_1\input.txt) on the repository.
+ An *example* of the input list used for both puzzles can be found [here](input.txt) on the repository.
 
- Results using **[this](Source\Day_1\input.txt)** example input list are:
+ Results using **[this](input.txt)** example input list are:
   * Puzzle 1: **540**
   * Puzzle 2: **73056**
 
@@ -17,6 +17,7 @@
 ## Navigate to Year:
 * [2018](../../2018)
 
+<br>
 <hr>
 
 ## Navigate to day (2018):

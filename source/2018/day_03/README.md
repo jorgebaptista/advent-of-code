@@ -5,9 +5,9 @@
  Read Day 3 puzzles on the official web page and get your unique Input file [here](https://adventofcode.com/2018/day/3).
 
 
- An *example* of the input list used for both puzzles can be found [here](Source\Day_3\input.txt) on the repository.
+ An *example* of the input list used for both puzzles can be found [here](input.txt) on the repository.
 
- Results using **[this](Source\Day_3\input.txt)** example input list are:
+ Results using **[this](input.txt)** example input list are:
   * Puzzle 1: **105071**
   * Puzzle 2: **222**
 

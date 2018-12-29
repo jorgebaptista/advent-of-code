@@ -6,7 +6,7 @@ namespace Day_03
     {
         static void Main(string[] args)
         {
-            string[] inputs = System.IO.File.ReadAllLines(@"../INPUTS.txt");
+            string[] inputs = System.IO.File.ReadAllLines(@"../input.txt");
 
             int puzzleSolution_1 = Puzzle_1.Solve(inputs);
             int puzzleSolution_2 = Puzzle_2.Solve(inputs);

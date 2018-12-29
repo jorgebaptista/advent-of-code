@@ -1,4 +1,4 @@
-with open("../INPUTS.txt", "r") as information:
+with open("../input.txt", "r") as information:
     inputs = information.readlines()
 
 

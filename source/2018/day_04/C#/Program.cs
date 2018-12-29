@@ -12,7 +12,7 @@ namespace Day_04
 
         static void Main(string[] args)
         {
-            string[] inputs = System.IO.File.ReadAllLines(@"../INPUTS.txt");
+            string[] inputs = System.IO.File.ReadAllLines(@"../input.txt");
 
             // int puzzleSolution_1 = Puzzle1.Solve(inputs);
             // int puzzleSolution_2 = Puzzle2.Solve(inputs);
