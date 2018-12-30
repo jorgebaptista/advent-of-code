@@ -1,33 +1,18 @@
+import puzzle_1
+import puzzle_2
+
+# Read lines from input file and assign them to a list called input
 with open("../input.txt", "r") as information:
     input = information.readlines()
     
+# Turn into a list of int
 data = list(map(int, input))
 
-def solve_puzzle1():
-    result = 0
-    
-    for number in data:
-        result += number
-    
-    return result
-        
+# Declares variables for each of the puzzles solutions and assigns respective functions to it 
+# (See puzzle_1 and puzzle_2 python files for each function code)
+puzzle1_solution = puzzle_1.solve(data)
+puzzle2_solution = puzzle_2.solve(data)
 
-def solve_puzzle2():
-    result = 0
-    unique_frequencies = set()
-
-    while True:
-        for number in data:
-            result += number
-
-            if result in unique_frequencies:
-                return result
-
-            unique_frequencies.add(result)
-
-
-puzzle1_solution = solve_puzzle1()
-puzzle2_solution = solve_puzzle2()
-
+# Prints both solutions
 print("Puzzle 1 Solution :" , puzzle1_solution)
 print("Puzzle 2 Solution :" , puzzle2_solution)
