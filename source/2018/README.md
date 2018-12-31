@@ -1,17 +1,19 @@
 # 2018 Solutions
 
-List of solutions using different programming languages for the Advent of Code 2018. 
+List of solutions using different programming languages for the Advent of Code 2018.
 
 You can check the official Avent of Code 2018 event [here](https://adventofcode.com/2018).
 
 <hr>
 
-## Navigate to Year:
+## Navigate to Year
+
 * [2018](../2018)
 
 <hr>
 
-## Navigate to day:
+## Navigate to day
+
 * [1](day_01)
 * [2](day_02)
 * [3](day_03)

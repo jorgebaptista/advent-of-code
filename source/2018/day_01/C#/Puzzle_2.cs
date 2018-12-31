@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 
 namespace Day_01
@@ -9,7 +8,7 @@ namespace Day_01
         public static int Solve(int[] input)
         {
             int result = 0;
-            //Declares a HashSet to save unique values
+            //Declares a HashSet to save unique elements
             HashSet<int> frequencies = new HashSet<int>();
 
             while (true)

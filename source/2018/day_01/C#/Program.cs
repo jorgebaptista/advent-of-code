@@ -6,7 +6,7 @@ namespace Day_01
     {
         static void Main(string[] args)
         {
-            //Gets the input file containing the information to solve the puzzle separates values into a string array and converts it to int
+            //Gets the input file containing the information to solve the puzzle, separates values into a string array and converts it to int
             int[] inputs = Array.ConvertAll(System.IO.File.ReadAllLines(@"../input.txt"), int.Parse);
 
             //Declares variables for each of the puzzles solutions and assigns respective functions to it 

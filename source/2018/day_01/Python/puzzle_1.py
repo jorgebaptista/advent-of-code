@@ -1,7 +1,7 @@
 def solve(data):
     result = 0
     
-    # Iterates through each value of the list and adds it to the result
+    # Iterates through each value of the list and sums it to the result
     for number in data:
         result += number
     

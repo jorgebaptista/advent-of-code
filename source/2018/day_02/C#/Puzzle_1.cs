@@ -6,46 +6,53 @@ namespace Day_02
 {
     class Puzzle_1
     {
-        public static int Solve(string[] args)
+        public static int Solve(string[] input)
         {
-            string[] inputs = args;
+            //create variables to store number of IDs with exactly 2 or 3 letters, respectively
+            int doubleLetterIDs = 0, tripleLetterIDs = 0;
 
-            int doubleLetterID = 0, tripleLetterID = 0;
-
-            foreach (string input in inputs)
+            foreach (string iD in input)
             {
-                List<char> checkedLetters = new List<char>();
+                //Declares HashSet to save unique elements
+                HashSet<char> checkedLetters = new HashSet<char>();
 
-                bool checkedDouble = false, checkedTriple = false;
+                bool hasDouble = false, hasTriple = false;
 
-                foreach (char letter in input)
+                //Iterates through each letter of the ID
+                foreach (char letter in iD)
                 {
-                    if (!checkedLetters.Contains(letter))
+                    //Checks if current letter has already been checked and if not to add to the HashSet
+                    if (!checkedLetters.Add(letter))
                     {
-                        checkedLetters.Add(letter);
+                        int identicalLetters = 0;
 
-                        int nIdenticalLetters = 0;
-
-                        foreach (char subLetter in input)
+                        foreach (char comparingLetter in iD)
                         {
-                            if (subLetter == letter) nIdenticalLetters++;
+                            if (comparingLetter == letter) identicalLetters++;
                         }
 
-                        if (nIdenticalLetters == 3 && !checkedTriple)
+                        //To reduce unnecessary iterations checks if the ID already has double or triple identical letters
+                        if (!hasDouble || !hasTriple)
                         {
-                            tripleLetterID++;
-                            checkedTriple = true;
+                            //Checks if it's the first time it has been found 2 identical letters in this ID
+                            if (identicalLetters == 2 && !hasDouble)
+                            {
+                                hasDouble = true;
+                                doubleLetterIDs++;
+                            }
+                            if (identicalLetters == 3 && !hasTriple)
+                            {
+                                hasTriple = true;
+                                tripleLetterIDs++;
+                            }
                         }
-                        else if (nIdenticalLetters == 2 && !checkedDouble)
-                        {
-                            doubleLetterID++;
-                            checkedDouble = true;
-                        }
+                        //Breaks out of the loop
+                        else break;
                     }
                 }
             }
-
-            return doubleLetterID * tripleLetterID;
+            //Returns multiplication of double and triple letter IDs as asked by the puzzle
+            return doubleLetterIDs * tripleLetterIDs;
         }
     }
 }

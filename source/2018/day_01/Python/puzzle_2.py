@@ -1,6 +1,6 @@
 def solve(data):
     result = 0
-    # Creates and unordered collection of unique elements
+    # Declares an unordered collection of unique elements
     unique_frequencies = set()
 
     while True:

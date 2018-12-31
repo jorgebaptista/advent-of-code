@@ -1,25 +1,25 @@
 # **(2018)** Day 2 Puzzles
 
-<br>
-
  Read Day 2 puzzles on the official web page and get your unique Input file [here](https://adventofcode.com/2018/day/2).
-
 
  An *example* of the input list used for both puzzles can be found [here](input.txt) on the repository.
 
  Results using **[this](input.txt)** example input list are:
-  * Puzzle 1: **8892**
-  * Puzzle 2: **zihwtxagifpbsnwleydukjmqv**
+
+* Puzzle 1: **8892**
+* Puzzle 2: **zihwtxagifpbsnwleydukjmqv**
 
 <br>
 <hr>
 
-## Navigate to Year:
+## Navigate to Year
+
 * [2018](../../2018)
 
 <hr>
 
-## Navigate to day (2018):
+## Navigate to day (2018)
+
 * [1](../day_01)
 * [2](../day_02)
 * [3](../day_03)
