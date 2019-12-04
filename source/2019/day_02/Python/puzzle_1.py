@@ -1,25 +1,19 @@
 def solve(data):
-    current_num = 0
-    current_opcode = 0
+    op_code = 0
+    current_index = 0
 
-    current_num = data[current_opcode]
+    op_code = data[current_index]
 
     data[1] = 12
     data[2] = 2
 
-    while current_num != 99:
-        
-        
-        # print(data[current_opcode])
-        if current_num == 1:
-            data[data[current_opcode + 3]] = data[data[current_opcode + 1]] + data[data[current_opcode + 2]]
-            current_opcode += 4
-        elif current_num == 2:
-            data[data[current_opcode + 3]] = data[data[current_opcode + 1]] * data[data[current_opcode + 2]]
-            current_opcode += 4
-        else:
-            current_opcode += 1
+    while op_code != 99:
+        if op_code == 1:
+            data[data[current_index + 3]] = data[data[current_index + 1]] + data[data[current_index + 2]]
+        elif op_code == 2:
+            data[data[current_index + 3]] = data[data[current_index + 1]] * data[data[current_index + 2]]
 
-        current_num = data[current_opcode]
+        current_index += 4
+        op_code = data[current_index]
 
     return data[0]
