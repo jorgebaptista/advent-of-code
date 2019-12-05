@@ -4,8 +4,7 @@ def solve(data):
 
     possible_passwords = 0
 
-    current_num = min_num
-    
+    current_num = min_num    
 
     while current_num <= max_num:
         converted_num = str(current_num)
