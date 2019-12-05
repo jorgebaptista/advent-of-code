@@ -2,9 +2,7 @@ import puzzle_1
 import puzzle_2
 
 with open("../input.txt", "r") as information:
-    input = information.readlines()
-
-data = list(map(int, input))
+    data = list(map(int, information.readlines()))
 
 puzzle1_solution = puzzle_1.solve(data)
 puzzle2_solution = puzzle_2.solve(data)
