@@ -9,11 +9,14 @@ def solve(data):
     while current_num <= max_num:
         converted_num = str(current_num)
 
-        is_possible_password = False
+        is_sorted = True
+        has_double = False
 
         last_char = 0
         current_char = 0
         current_index = 0
+
+        multiple_chars = list()
 
         while current_index < len(converted_num):
 
@@ -21,16 +24,21 @@ def solve(data):
 
             if current_index > 0:
                 if current_char < last_char:
-                    is_possible_password = False
+                    is_sorted = False
                     break
                 elif current_char == last_char:
-                    is_possible_password = True
+                    if current_char not in multiple_chars:
+                        multiple_chars.append(current_char)
 
             last_char = converted_num[current_index]
 
             current_index += 1
 
-        if is_possible_password:
+        for char in multiple_chars:
+            if converted_num.count(char) == 2:
+                has_double = True
+
+        if is_sorted and has_double:
             possible_passwords += 1
 
         current_num += 1
