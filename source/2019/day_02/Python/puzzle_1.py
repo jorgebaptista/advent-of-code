@@ -1,4 +1,5 @@
-def solve(data):
+def solve(original_data):
+    data = list(original_data)
     op_code = 0
     current_index = 0
 
