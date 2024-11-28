@@ -5,6 +5,5 @@
 # Ignore .txt files such as input
 *.txt
 
-
 # Ignore .exe binary files
 *.exe
