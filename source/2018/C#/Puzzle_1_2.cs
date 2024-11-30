@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace Day_01
+namespace 2018
 {
-    class Puzzle_2
+    class Puzzle_1_2
     {
         public static int Solve(int[] input)
         {

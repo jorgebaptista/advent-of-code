@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Day_02
+namespace 2018
 {
     class Puzzle_2
     {

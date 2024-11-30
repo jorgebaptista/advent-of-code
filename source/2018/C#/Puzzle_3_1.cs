@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Day_03
+namespace 2018
 {
     class Puzzle_1
     {
