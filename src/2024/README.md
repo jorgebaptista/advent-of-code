@@ -7,8 +7,14 @@ You can check the official Avent of Code 2024 event [here](https://adventofcode.
 ## Navigate to Year
 
 * [2015](../2015)
+* ~~2016~~
+* ~~2017~~
 * [2018](../2018)
 * [2019](../2019)
+* ~~2020~~
+* ~~2021~~
+* ~~2022~~
+* ~~2023~~
 * **2024**
 
 ## Input File
