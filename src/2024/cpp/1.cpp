@@ -31,5 +31,17 @@ int main()
 
     cout << sum << endl;
 
+    multiset<int> right_set(right.begin(), right.end());
+
+    sum = 0;
+
+    for (int i = 0; i < left.size(); i++)
+    {
+        int inner = left[i] * right_set.count(left[i]);
+        sum += inner;
+    }
+
+    cout << sum;
+
     return 0;
 }
